@@ -1,0 +1,5 @@
+--size 1600,900 scenario.rab
+--paper-size=1600,900
+--output-filename=picoruby-overflow.pdf
+--output-druby-uri
+--allotted-time=20m
