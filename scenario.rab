@@ -1,0 +1,784 @@
+= 入門以前から始める\nPicoRuby のあそび方
+
+: author
+   @makicamel
+
+: content-source
+   PicoRuby Overflow会議
+
+:date
+   2025.07.19
+
+:theme
+   theme
+
+= 自己紹介
+
+  * @makicamel / 川原万季
+  * Ruby 💎 とビール 🍻 とお酒が好き
+  * 好きな言葉は「エイってやってバーン」
+  * PicoPicoRuby始めました ((<URL:https://picopicoruby.connpass.com/>))
+     * PicoRuby・電子工作歴 1 ヶ月
+     * ピカピカの初心者
+
+  # image
+  # src = image/makicamel.png
+  # relative_width = 10
+  # align = right
+  # vertical_align = top
+  # relative_margin_right = 0
+  # relative_margin_top = 0
+
+= RubyKaigi 2025 Lightning Talk
+
+\n\n\n\n\n\n\n\n\n\n
+(('tag:xx-small:　　Road to RubyKaigi: Making Tinny Chiptunes with Ruby　'))((<URL:https://rubykaigi.org/2025/presentations/lt/>))
+　
+== プロパティ
+
+: background-image
+   image/rubykaigi-lt1.png
+: background-image-relative-height
+   76
+: background-image-align
+   center
+: background-image-vertical-align
+   middle
+: background-image-relative-margin-top
+   4
+
+= RubyKaigi 2025 Lightning Talk
+
+* Road to RubyKaigi
+  * Rubyist による Rubyist のための Ruby 製のゲーム
+  * ターミナル上で遊ぶ横スクロールアクションゲーム
+  * バグを倒し〆切から逃れて RubyKaigi 参加を目指す
+
+\n\n\n
+(('tag:xx-small:　　Road to RubyKaigi: Making Tinny Chiptunes with Ruby　'))((<URL:https://rubykaigi.org/2025/presentations/lt/>))\n
+(('tag:xx-small:　　Road to RubyKaigi　'))((<URL:https://github.com/makicamel/road_to_rubykaigi>))
+
+= RubyKaigi 2025 Lightning Talk
+
+* Ruby で音を作って鳴らすお話をした 🔈
+  * 音は波 🌊
+  * 波形データをつくって\nオーディオ API に渡すと\n音が鳴らせる
+
+\n\n\n\n
+(('tag:xx-small:　　Road to RubyKaigi: Making Tinny Chiptunes with Ruby　'))((<URL:https://rubykaigi.org/2025/presentations/lt/>))\n
+(('tag:xx-small:　　Road to RubyKaigi　'))((<URL:https://github.com/makicamel/road_to_rubykaigi>))
+
+== プロパティ
+
+: background-image
+   image/rubykaigi-lt2.png
+: background-image-relative-height
+   76
+: background-image-align
+   right
+: background-image-vertical-align
+   middle
+: background-image-relative-margin-left
+   18
+: background-image-relative-margin-top
+   16
+
+= Road to RubyKaigi
+
+  * デモ
+
+  # image
+  # src = image/play-video.gif
+  # relative_height = 100
+  # align = center
+  # vertical_align = middle
+
+(('tag:xx-small:　　Road to RubyKaigi　'))((<URL:https://github.com/makicamel/road_to_rubykaigi>))
+
+= Road to RubyKaigi
+　
+  # image
+  # src = image/fukidashi-game.png
+  # relative_width = 28
+  # align = right
+  # vertical_align = bottom
+  # relative_margin_top = 12
+
+== プロパティ
+
+: background-image
+   image/makicamel.png
+: background-image-relative-width
+   8
+: background-image-align
+   right
+: background-image-vertical-align
+   bottom
+: background-image-relative-margin-right
+   4
+
+= PicoRuby
+
+  # image
+  # src = image/picoruby-github.png
+  # relative_width = 70
+  # align = center
+  # vertical_align = middle
+  # relative_margin_top = 1
+
+(('tag:xx-small:　　PicoRuby　'))((<URL:https://github.com/picoruby/picoruby>))
+
+= PicoRuby
+
+  * 軽量 Ruby 実装
+    * マイコンで動作する
+  * @hasumikin さん作
+
+  # image
+  # src = image/fukidashi-game2.png
+  # relative_width = 28
+  # align = right
+  # vertical_align = bottom
+  # relative_margin_top = 12
+
+\n\n\n\n\n\n
+(('tag:xx-small:　PicoRuby　'))((<URL:https://github.com/picoruby/picoruby>))
+
+== プロパティ
+
+: background-image
+   image/makicamel.png
+: background-image-relative-width
+   8
+: background-image-align
+   right
+: background-image-vertical-align
+   bottom
+: background-image-relative-margin-right
+   4
+
+= 　
+　
+== プロパティ
+
+: background-image
+   image/newbie1.png
+: background-image-relative-width
+   100
+
+= 　
+　
+== プロパティ
+
+: background-image
+   image/newbie2.png
+: background-image-relative-width
+   100
+
+= 電子工作未経験
+　
+  # image
+  # src = image/fukidashi-questions.png
+  # relative_width = 88
+  # vertical_align = top
+  # relative_margin_top = -10
+
+== プロパティ
+
+: background-image
+   image/makicamel.png
+: background-image-relative-width
+   8
+: background-image-align
+   right
+: background-image-vertical-align
+   bottom
+: background-image-relative-margin-right
+   4
+
+= 電子工作未経験
+
+  * ゴールまでの道筋が見えない
+    * 何をどうしたら音が鳴るんです？
+  * 常識がない
+    * とりあえず強い電圧かけたらいいんじゃないですか？(｡∀゜)
+  * 知らない単語・概念がとにかく多い
+    * シリアル通信、ボーレート、GPIO、入出力ピン...
+
+= 電子工作未経験
+
+  * ...というひとが音の鳴る小さなデバイスをつくった話をします
+  * トークのゴール
+    * 初心者: 電子工作概観のイメージがわかる
+    * ベテラン: 「初心者はこんなことがわからないんだ」という気づき
+
+= つくってみよう
+
+  * Road to RubyKaigi の音を鳴らすだけのデバイス
+    * ゲーム丸ごと作るのはステップとして大きすぎる
+    * 波形データは前に作ったのでできそうな気がする
+    * 音を鳴らすと楽しい
+
+= 目次
+
+  (1) 概観を眺める
+  (2) PicoRuby のあそび方
+  (3) 初心者のふりかえり
+
+= 目次
+
+  (1) ((*概観を眺める*))
+  (2) PicoRuby のあそび方
+  (3) 初心者のふりかえり
+
+= 概観図
+　
+== プロパティ
+
+: background-image
+   image/pcb0.png
+: background-image-relative-height
+   88
+: background-image-align
+   center
+: background-image-vertical-align
+   middle
+: background-image-relative-margin-top
+   4
+
+= 概観図 1. 電池
+　
+== プロパティ
+
+: background-image
+   image/pcb1.png
+: background-image-relative-height
+   88
+: background-image-align
+   center
+: background-image-vertical-align
+   middle
+: background-image-relative-margin-top
+   4
+
+= 概観図 1. 電池
+
+  * 電圧 3V
+    * Raspberry Pi Pico の起動には約 3V 必要
+  * 単三電池はだいたい 1 本 1.5V
+    * 2 本直列でつないだら 3V
+  * 今回はリチウム電池を使用
+    * 小さい基盤に乗せたかったので
+
+= 概観図 2. スイッチ
+　
+== プロパティ
+
+: background-image
+   image/pcb2.png
+: background-image-relative-height
+   88
+: background-image-align
+   center
+: background-image-vertical-align
+   middle
+: background-image-relative-margin-top
+   4
+
+= 概観図 2. スイッチ
+
+  * 回路の開閉をする
+    * 閉じていると回路がつながっている
+      * Raspberry Pi Pico に電源が供給される💡
+    * 開いていると回路が切断されている
+      * Raspberry Pi Pico に電源が供給されない▪️
+  * デバイス電源の ON / OFF 切り替えに使用
+
+= 概観図 3. 抵抗
+　
+== プロパティ
+
+: background-image
+   image/pcb3.png
+: background-image-relative-height
+   88
+: background-image-align
+   center
+: background-image-vertical-align
+   middle
+: background-image-relative-margin-top
+   4
+
+= 概観図 3. 抵抗
+
+  * 電源からパーツやマイコンに流す電流を制限する
+    * 電流が大きすぎるとパーツなどを破壊する 🙅‍♀️
+  * パーツには定格電流がある
+    * 抵抗を利用して適切な電流を流す 🙆‍♂️
+  * 定格電流はパーツのデータシートに記載がある
+
+  # image
+  # src = image/fukidashi-resistor.png
+  # relative_width = 32
+  # align = right
+  # vertical_align = bottom
+  # relative_margin_top = 8
+  # relative_margin_left = 4
+
+== プロパティ
+
+: background-image
+   image/makicamel.png
+: background-image-relative-width
+   8
+: background-image-align
+   right
+: background-image-vertical-align
+   bottom
+: background-image-relative-margin-right
+   4
+
+= 概観図 3. 抵抗
+
+  * 抵抗値は((*オームの法則*))で求める
+    * V = IR
+    * 電圧(V) = 電流(A) * 抵抗(Ω)
+      * e.g. 電源電圧が3.3V、流したい電流が30mA、スピーカーの抵抗が 15Ω
+        * ・ 3.3V = 0.03A * (R + 15) Ω
+        * ・ R = 3.3 / 0.03 - 15\n　=> 95Ω
+        * ・ 95Ωの抵抗が必要\n→ 100Ωの抵抗を使う
+
+= 概観図 3. 抵抗
+
+  * 抵抗の抵抗値はカラーコードから読み取る
+    * ref. 抵抗のカラーコード計算機 ((<URL:https://akizukidenshi.com/catalog/pages/reg-calc.aspx>))
+    * 判別むずすぎ問題
+      * 赤と茶、青と黒...
+  * テスターでも確認可
+
+== プロパティ
+
+: background-image
+   image/resistor.png
+: background-image-relative-height
+   68
+: background-image-align
+   right
+: background-image-vertical-align
+   middle
+: background-image-relative-margin-top
+   30
+
+= 概観図 4. Raspberry Pi Pico
+　
+== プロパティ
+
+: background-image
+   image/pcb4.png
+: background-image-relative-height
+   88
+: background-image-align
+   center
+: background-image-vertical-align
+   middle
+: background-image-relative-margin-top
+   4
+
+= 概観図 4. Raspberry Pi Pico
+
+  * 波形データを作り電気信号として出力する
+  * PicoRuby でプログラミングできる💎
+
+= 概観図 4. Raspberry Pi Pico
+
+Raspberry Pi Pico
+
+  * マイコンボード
+    * RP2040 搭載
+    * USB で電源供給とプログラム書き込み可
+\n\n\n\n
+(('tag:xx-small:　Raspberry Pi Pico　'))((<URL:https://www.raspberrypi.com/products/raspberry-pi-pico/>))
+
+= 概観図 4. Raspberry Pi Pico
+
+Raspberry Pi Pico
+
+  * マイコンボード
+    * RP2040 搭載
+    * USB で電源供給とプログラム書き込み可
+  * RP2040
+    * マイコンチップ
+
+\n
+(('tag:xx-small:　Raspberry Pi Pico　'))((<URL:https://www.raspberrypi.com/products/raspberry-pi-pico/>))
+
+== プロパティ
+
+: background-image
+   image/raspberrypipico.png
+: background-image-relative-width
+   50
+: background-image-align
+   right
+: background-image-vertical-align
+   bottom
+: background-image-relative-margin-left
+   -8
+: background-image-relative-margin-top
+   -18
+
+= 概観図 4. RP2040（Raspberry Pi Pico）
+
+  * 7㎟ に CPU・メモリ・ペリフェラルなどがつまっている
+  * ペリフェラル: 機能専用ハードウェア
+    * デジタル I/O
+    * PWM
+    * 通信インターフェース
+    * etc
+
+(('tag:xx-small:　RP2040　'))((<URL:https://www.raspberrypi.com/products/rp2040/>))
+
+== プロパティ
+
+: background-image
+   image/rp2040.png
+: background-image-relative-height
+   72
+: background-image-align
+   right
+: background-image-vertical-align
+   middle
+: background-image-relative-margin-left
+   8
+: background-image-relative-margin-top
+   28
+
+= 概観図 4. RP2040（Raspberry Pi Pico）
+
+  * PWM モジュール
+    * Pulse Width Modulation
+    * 一定の周波数・電圧 High の比率で\n信号を生成する
+      * e.g. モーター制御
+        * - 平均電圧を変えて回転数を制御
+      * e.g. 赤外線リモコン
+        * - 赤外線信号パターンを指定
+
+== プロパティ
+
+: background-image
+   image/pwm.png
+: background-image-relative-width
+   40
+: background-image-align
+   right
+: background-image-vertical-align
+   middle
+: background-image-relative-margin-left
+   -6
+
+= 概観図 4. RP2040（Raspberry Pi Pico）
+
+* PWM モジュール
+  * PicoRuby で波形データを生成 🌊
+
+      # rouge ruby
+      # PWMモジュールで0.5秒ずつド,レ,ミの波形データを生成する
+      require 'pwm'
+      pwm = PWM.new(0, duty: 50)
+      [262, 294, 330].each do |frequency| # ド,レ,ミの周波数
+            pwm.frequency(frequency)
+            t = Time.now
+            while (Time.now - t) < 0.5; end # 0.5秒ビジーループさせる
+      end
+
+= 概観図 5. スピーカー
+　
+== プロパティ
+
+: background-image
+   image/pcb5.png
+: background-image-relative-height
+   88
+: background-image-align
+   center
+: background-image-vertical-align
+   middle
+: background-image-relative-margin-top
+   4
+
+= 概観図 5. スピーカー
+
+  * 音声出力装置
+  * PWM モジュールで生成した波形データを電気信号として入力する
+
+= 概観図
+
+完成 🔈
+
+== プロパティ
+
+: background-image
+   image/first-mile.jpg
+: background-image-relative-height
+   88
+: background-image-align
+   center
+: background-image-vertical-align
+   middle
+: background-image-relative-margin-top
+   4
+
+= 目次
+
+  (1) 概観を眺める
+  (2) ((*PicoRuby のあそび方*))
+  (3) 初心者のふりかえり
+
+= PicoRuby のあそび方
+
+  * 1. Raspberry Pi Pico を USB でパソコンとつなぐ
+  * 2. R2P2((-PicoRuby 用シェルシステム　((<URL:https://github.com/picoruby/R2P2>))-))を Raspberry Pi Pico にインストール
+    * 最新リリースから uf2 ファイルをダウンロードしてドラッグ & ドロップで完了
+  * 3. シリアル通信で接続
+    * mac だと `TERM=vt100 screen /dev/tty.usbmodem*`
+  * 4. シェル起動
+
+== プロパティ
+
+: background-image
+   image/picoruby-shell.png
+: background-image-relative-height
+   60
+: background-image-align
+   center
+: background-image-vertical-align
+   bottom
+: background-image-relative-margin-left
+   40
+: background-image-relative-margin-top
+   40
+
+= PicoRuby のあそび方
+
+  * irb
+    * `puts 'Hello, PicoRuby!'`
+  * /home/app.rb
+    * このパスにファイルを置くと Raspberry Pi Pico 起動時に実行される
+  * ドキュメント ((<URL:https://picoruby.github.io/>))
+
+= PicoRuby のあそび方
+
+  * irb で遊んでいると Out of Memory に遭遇しやすい
+    * Raspberry Pi Pico のメモリは 256KB
+      * ref MacBook Pro (M3 Pro) のメモリは 32GB
+      * 1 / 125000
+    * 大きなオブジェクト生成は避けたほうがよい
+
+= PicoRuby のあそび方
+
+  * Road to RubyKaigi の BGM
+    * 元実装は配列を value としたハッシュの配列
+    * メロディー 1 音、ベース 2 音
+    * このままだとメモリ足りないかも
+
+== プロパティ
+
+: background-image
+   image/melody-sequencer.png
+: background-image-relative-width
+   60
+: background-image-align
+   center
+: background-image-vertical-align
+   top
+: background-image-relative-margin-top
+   56
+
+= PicoRuby のあそび方: データ圧縮
+
+  * 使用する音程は 2 オクターブ 14 音 + 休符の 15 音
+    * 2^4 => 16 なので 1 音を 4bit（16 進数 1 文字）で表してデータ圧縮する
+  * 音程に番号を割り当て 16 進数で表す
+    * e.g. E4 → 2（10 進数） → 0x2（16 進数）
+
+        # rouge ruby
+          NOTE_MAPPING = {
+            C4: 0, D4: 1, E4: 2, F4: 3, A4: 5, B4: 6, REST: 4, # ...
+          }
+
+= PicoRuby のあそび方: データ圧縮
+
+  * 音階を 16 進数の配列に変換
+    * e.g. [C4, D4, E4] → [0x0, 0x1, 0x2]
+  * 左シフトしてひとつの Integer にする
+    * e.g. [0x0, 0x1, 0x2] → 0x210（16 進数） → 528（10 進数）
+  * 小さくなった！
+
+= PicoRuby のあそび方: データ圧縮
+
+  * 音の長さも同様に圧縮
+    * 十六部音符: 0, 八分音符: 1, 四分音符: 2
+  * エンコードした Integer をコードに埋め込み
+
+      # rouge ruby
+        SCORES = [
+            { notes: [45589323163098, 120693318330058, ...] }, # メロディー
+            { notes: [72588760057059, 72588760057059,  ...] }, # ベース 1
+            { notes: [85991239857509, 85991239857509, ...] }, # ベース 2
+        ]
+
+= PicoRuby のあそび方: データ圧縮
+
+  * 再生時にデコード
+
+      # rouge ruby
+        DECODER = Proc.new do |packed, shift|
+            # 音程インデックスと音の長さをセットで取り出す
+            index_duration = (packed >> (shift * NOTE_BITS)) & 0b111111 # デコード時は右シフト
+            [
+                NOTE_MAPPING[index_duration & 0b1111], # 音程の番号
+                0.25 * 2 ** ((index_duration >> FREQUENCY_BITS) & 0b11) # 音の長さ
+            ]
+        end
+
+  * 無事音が鳴った 🔈
+
+(('tag:xx-small:　　'))((<URL:https://github.com/makicamel/picoruby-phrase/blob/main/player.rb>))
+
+
+= 目次
+
+  (1) 概観を眺める
+  (2) PicoRuby のあそび方
+  (3) ((*初心者のふりかえり*))
+
+= 初心者のふりかえり
+
+  * 勢いよく進むタイプの話者が勢いよくハマってきたこととそのふりかえり
+
+= 初心者のふりかえり
+
+  * はんだづけが下手 😐
+    * 正しい回路のはずなのに電圧が低い
+    * はんだが溶けない・つかない
+    * やり直しすぎてランドが溶けて電導体が無
+  * YouTube べんり 😀
+    * How To Solder Electronic Component. Tutorial((-((<URL:https://www.youtube.com/watch?v=dQ7AUjb1tkA&t=1323s>))-)) はとくにお勧め
+    * 自分のはんだづけがうまくいかない理由・対処法がわかる
+
+== プロパティ
+
+: background-image
+   image/ng-solder.jpg
+: background-image-relative-width
+   20
+: background-image-align
+   right
+: background-image-vertical-align
+   top
+: background-image-relative-margin-top
+   4
+: background-image-relative-margin-right
+   24
+
+= 初心者のふりかえり
+
+  * はんだづけが下手 😐
+  * 両面スルーホール基盤を使う 😀
+    * 片面ノンスルーホール基盤は非初心者向け
+  * ブレッドボード基盤を使う 😀
+    * ブレッドボードのように縦横にランドが繋がっている
+    * はんだづけ負担が減る
+
+== プロパティ
+
+: background-image
+   image/bbpcb.jpg
+: background-image-relative-width
+   28
+: background-image-align
+   center
+: background-image-vertical-align
+   top
+: background-image-relative-margin-top
+   64
+: background-image-relative-margin-left
+   20
+
+= 初心者のふりかえり
+
+  * 配線が下手 😐
+    * よくわからないけどごちゃついている
+    * どう整理したらよいかわからない
+  * 対策 😀
+    * 電源用配線は電源専用にして他の用途と混ぜない
+    * 電源、グラウンド、それ以外の色を決める
+    * 配線は短いほうがいい
+    * パーツの下をくぐらせるとメンテしづらいので避ける
+
+= 初心者のふりかえり
+
+  * 回路のデバッグができない 😐
+    * 意図通り動かない時にどう調査したらよいかわからない
+  * 何はともあれテスターで確認 😀
+    * 意図通りの電圧がきているか？
+      * 配線が間違っているかも
+      * はんだづけがうまくできていないかも
+      * 電池がへたっているかも
+    * 意図通りに導通しているか？
+      * PWM は電圧が変化するので電圧ではなく導通チェックする
+
+= 初心者のふりかえり
+
+  * 回路のデバッグができない 😐
+  * 大きな故障箇所から範囲を狭めて問題箇所を探る 😀
+    * プリントデバッグと一緒
+
+= 初心者のふりかえり
+
+  * とりあえず全部配線したけどうまく動かない 😐
+    * どこに原因があるかさっぱりわからない
+  * とりあえず全部配線しない 😄
+    * 1 ステップずつ確かに動作することを確認する
+      * 信頼のおけるものを積み上げる
+      * パーツが壊れている可能性もある
+    * プログラミングで単体テストするのと同じ
+
+= 初心者のふりかえり
+
+  * データシートが読めない 😐
+    * 常用単語がわからない
+    * 読み方がわからない
+    * 何が書いてあるかわからない
+  * 欲しい情報を明確にしてから臨むとよさそう 😀
+    * 定格電流
+    * ピン番号
+    * etc
+
+= 初心者のふりかえり
+
+  * パーツショップに何も調べず行く 😐
+    * えっ、パーツの種類、多すぎ...？
+    * 選び方がわからない
+  * 欲しい部品を事前に調べる 😀
+    * 商品コードをメモしておくとスムーズ
+    * 見ているだけでも楽しいのは楽しい
+    * 詳しい人と行くと発見がたくさんあって楽しい
+      * 明日7月20日にアフターイベントやります
+
+= 初心者がハマらなかった穴
+
+  * (('del:聞く人がいない'))
+  * 毎日 @youchan に相談していた 🥰
+    * マイコンボードの裏表からデバッグの仕方、通信プロトコルまで
+    * 物理デバイスは特に相談できる人がいたほうがいい
+    * コミュニティ
+      * naniwa.rb（大阪）　((<URL:https://naniwarb.doorkeeper.jp/>))
+      * PicoPicoRuby（東京） ((<URL:https://picopicoruby.connpass.com/>))
+    * Twitter でつぶやくと拾ってくれるひともいるかも
+
+= Special Thanks
+
+  * @youchan
+
+= Happy Hacking!
