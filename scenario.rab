@@ -29,6 +29,27 @@
   # relative_margin_right = 0
   # relative_margin_top = 0
 
+= 自己紹介
+
+* 電車でRuby! コーナーあります 🚃
+  * PicoRuby で操作できるプラレール
+  * 遊んでいってください
+
+== プロパティ
+
+: background-image
+   image/prarail-demo.png
+: background-image-relative-height
+   72
+: background-image-align
+   center
+: background-image-vertical-align
+   middle
+: background-image-relative-margin-top
+   12
+: background-image-relative-margin-left
+   20
+
 = RubyKaigi 2025 Lightning Talk
 
 \n\n\n\n\n\n\n\n\n\n
