@@ -1,0 +1,87 @@
+= \nPicoRuby on Rails
+
+: author
+   @makicamel
+
+:theme
+   theme
+
+= 電車でRuby!
+
+* プラレール車両を PicoRuby で操作できます 🚃
+
+= 電車でRuby!
+
+* Raspberry Pi Pico にシリアル通信で接続
+    * mac だと `TERM=vt100 screen /dev/tty.usbmodem*`
+* irbからスイッチ切り替え
+
+    # rouge ruby
+
+    forward = GPIO.new(8, GPIO::OUT)
+    back = GPIO.new(10, GPIO::OUT)
+    forward.write 1 # => 前進開始（数秒継続でスピードアップ）
+    forward.write 0 # => スピードアップやめ
+    back.write 1 # => 後進
+    back.write 0 # => 後進やめ
+
+* 前進と後進を細かく入れ替えて遊んでみてください
+
+= キミが運転!グリップマスコン
+
+* 車両
+    * 赤外線受信モジュール搭載
+* コントローラ
+    * 赤外線信号送信
+* このコントローラを\nPicoRuby で操作する
+\n\n
+(('tag:xx-small:　　'))\n((<URL:https://takaratomymall.jp/shop/g/g4904810915263/>))
+
+== プロパティ
+
+: background-image
+   image/prarail.png
+: background-image-relative-height
+   84
+: background-image-align
+   right
+: background-image-vertical-align
+   middle
+: background-image-relative-margin-top
+   8
+: background-image-relative-margin-right
+   4
+
+= 回路図
+
+   * 元基盤（赤外線デバイス）にスイッチが実装されている
+     * 前進用・後進用ふたつのスイッチがある
+   * 各スイッチをON/OFFするだけ
+　
+== プロパティ
+
+: background-image
+   image/circuit-diagram.png
+: background-image-relative-width
+   84
+: background-image-align
+   center
+: background-image-vertical-align
+   middle
+: background-image-relative-margin-top
+   8
+
+= 回路図
+
+   * 実装
+
+== プロパティ
+
+: background-image
+   image/pcb.jpg
+: background-image-relative-height
+   70
+: background-image-align
+   center
+: background-image-vertical-align
+   middle
